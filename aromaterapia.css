@@ -1,0 +1,171 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.capa {
+    width: 100%;
+    height: auto;
+    position: relative;
+    background-size: cover; 
+    background-position: center; 
+}
+
+.menu {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #b1a9a9;
+}
+
+.menu .menu-icon, .menu .menu-text {
+    color: white;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+nav ul {
+    list-style: none;
+    padding: 5px;
+    margin: 5px;
+    background-color: rgba(230, 219, 219, 0.5);
+    border-radius: 5px;
+}
+
+nav ul li {
+    margin: 5px 0 10px 0; 
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+header, footer {
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+}
+
+.termoslink {
+    color: #000;
+    text-decoration: none;
+}
+
+.termoslink:hover {
+    text-decoration: underline;
+}
+
+
+img {
+    width: 400px;
+    margin: 20px;
+    display: block;
+    margin: auto;
+}
+
+p, li {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 20px;
+    
+}
+
+h1 {
+    text-align: center;
+    font-family: 'alex brush';
+    font-size: 30px;
+}
+
+li {
+    text-align: left;
+}
+
+label, input,select, h2, textarea {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+  }
+  
+  .termoslink {
+    text-decoration: none;
+    color: black;
+  }
+  
+  button {
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    width: 300px;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: block;
+    font-size: 17px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: inline-block;
+    width: 150px; 
+  }
+  
+  input[type=text], input[type=email], textarea, select {
+    width: 300px;
+    height: auto;
+  }
+  
+  textarea {
+    height: 100px; 
+  }
+  
+
+  label,input, select, textarea {
+    width: 300px;
+    height: 50px;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .form-container {
+    border: 2px solid #000; 
+    padding: 20px; 
+    border-radius: 10px;
+    width: 400px; 
+    margin: 0 auto; 
+}
+
+footer {
+  margin-top: 60px;
+}
+.select-container label {
+  display: flex;
+  align-items: center; /* Alinha a caixa com o texto */
+  font-size: 16px; /* Reduz o tamanho da fonte */
+  margin-bottom: 10px; /* Espaçamento entre os itens */
+  cursor: pointer; /* Adiciona interatividade */
+}
+
+.select-container input[type="checkbox"] {
+  transform: scale(0.4); /* Ajuste o valor para o tamanho desejado */
+  margin-right: 10px; /* Mantém o espaçamento entre a caixa e o texto */
+}
+.texto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  line-height: 1.6; /* Espaçamento confortável entre linhas */
+  text-align: justify; /* Justifica o texto */
+}

@@ -1,0 +1,16 @@
+* CRIAR UMA SEÇÃO SOBRE;
+* CRIAR PÁGINA CONTATO; 
+
+ <p>Reiki é uma terapia energética de cura natural; a palavra Reiki significa Energia Vital Universal, ou seja, Reiki é a energia da vida, que forma todos os seres. Essa terapia age em todo o nosso organismo, regenerando células e promovendo cura onde é necessário. Ele age nos chacras (canais energéticos do corpo), agindo não apenas no corpo físico, mas em todos os corpos sutis que nós possuímos. 
+    </p>
+    <h2>Os 5 Princípios do Reiki:</h2>
+    <ul> 
+        <li>Redução da ansiedade e estresse, promovendo profunda sensação de relaxamento, de paz e tranquilidade;</li>
+        <li>Diminui a impulsividade e aumenta a criatividade;</li>
+        <li>Equilíbrio hormonal;</li>
+        <li>Equilíbrio emocional e autocontrole;</li>
+        <li>Alivia os sintomas de Síndrome do Pânico e Depressão;</li>
+        <li>Diminui toxinas do organismo;</li>
+        <li>Melhora a qualidade do sono, melhora a circulação sanguínea e proporciona o alívio de dores;</li>
+        <li>Fortalece a imunidade.</li>
+    </ul>

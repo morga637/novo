@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.capa {
+    width: 100%;
+    height: auto;
+    position: relative;
+    background-image: url('Cópia de Vamos encontrar.png'); 
+    background-size: cover; 
+    background-position: center; 
+}
+
+
+.menu {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #b1a9a9;
+
+}
+
+.menu .menu-icon, .menu .menu-text {
+    color: white;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+nav ul {
+    list-style: none;
+    padding: 5px;
+    margin: 5px;
+    background-color: rgba(230, 219, 219, 0.5);
+    border-radius: 5px;
+}
+
+nav ul li {
+    margin: 5px 0 10px 0; 
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+header, footer {
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    margin: 20px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.termoslink {
+    color: #000;
+    text-decoration: none;
+}
+
+.termoslink:hover {
+    text-decoration: underline;
+}
+
+
+
+h1 {
+    font-family: 'alex brush';
+    text-align: center;
+    font-size:40px;
+    margin-top: 50px;
+}
+
+p {
+    font-family: arial;
+    text-align: center;
+    font-size: 20px;
+}
+
+#quemsou {
+    text-align: center;
+}
+
+
+.pessoal {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: auto;
+}
+
+button {
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    width: 300px;
+    height: 50px;
+    margin: 0 auto;
+    display: block; 
+    margin-top: 40px;
+}
+
+.consulta {
+    text-decoration: none;
+}
+
+.consulta:hover {
+    text-decoration: underline;
+    color:#000
+}
+
+
+.logo {
+    width: 400px;
+    height: auto;
+    margin-right: 10px;
+}
+
+footer {
+    margin-top: 60px;
+  }
+
+  #quemsou, #espaco {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.6; /* Espaçamento confortável entre linhas */
+    text-align: justify; /* Justifica o texto */
+  }
